@@ -7,7 +7,7 @@ class Timer(private var seconds: Long) {
     private var isStarted: Boolean = false
     private var isPaused: Boolean = false
 
-    fun intTimer(opt: String) {
+    fun timerHandler(opt: String) {
         val millisecondsLeft = seconds * 1000
         val timer = object: CountDownTimer(millisecondsLeft, 1000) {
             override fun onTick(millisUntilFinished: Long) {

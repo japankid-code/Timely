@@ -2,16 +2,16 @@ package com.example.timely
 
 import android.app.Activity
 import android.os.Bundle
-import com.example.timely.databinding.ActivityMainBinding
+import com.example.timely.databinding.ActivityTimerBinding
 
-class MainActivity : Activity() {
+public class MainActivity : Activity()  {
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityTimerBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityTimerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
     }
