@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/drawable/btn_rounded_blue.xml" value="1.6472222222222221" />
+        <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/drawable/btn_rounded_green.xml" value="1.6472222222222221" />
+        <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/drawable/ic_pause.xml" value="1.6472222222222221" />
         <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/drawable/ic_play.xml" value="1.4861111111111112" />
+        <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/drawable/ic_restart.xml" value="1.6472222222222221" />
         <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/layout/activity_main.xml" value="0.9820359281437125" />
-        <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/layout/activity_timer.xml" value="1.7166666666666666" />
+        <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/layout/activity_timer.xml" value="2.0" />
         <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/layout/btn_rounded_green.xml" value="1.21484375" />
         <entry key="..\:/Users/jrank/AndroidStudioProjects/Timely/app/src/main/res/layout/rounded_blue.xml" value="1.1901041666666667" />
       </map>

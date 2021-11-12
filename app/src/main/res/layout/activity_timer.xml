@@ -26,13 +26,14 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
+                android:gravity="center_horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
 
                 <TextView
-                    android:id="@id/minutes_left"
+                    android:id="@+id/minutes_left"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/minutes_left"
@@ -46,7 +47,7 @@
                     android:textSize="60sp" />
 
                 <TextView
-                    android:id="@id/seconds_left"
+                    android:id="@+id/seconds_left"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/seconds_left"
@@ -56,15 +57,15 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="center"
+                android:gravity="center_horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
                 <ImageButton
-                    android:id="@id/restart_button"
+                    android:id="@+id/btn_restart"
                     android:background="@drawable/btn_rounded_blue"
-                    android:layout_height="50dp"
-                    android:layout_width="50dp"
+                    android:layout_height="@dimen/square_button"
+                    android:layout_width="@dimen/square_button"
                     android:clickable="true"
                     android:layout_marginEnd="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -72,10 +73,10 @@
                     android:src="@drawable/ic_restart"
                     android:contentDescription="@string/buttons_rect_bottom_left" />
                 <ImageButton
-                    android:id="@id/play_pause_button"
+                    android:id="@+id/btn_play_pause"
                     android:background="@drawable/btn_rounded_green"
-                    android:layout_height="50dp"
-                    android:layout_width="50dp"
+                    android:layout_height="@dimen/square_button"
+                    android:layout_width="@dimen/square_button"
                     android:clickable="true"
                     android:layout_marginStart="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"

@@ -2,8 +2,8 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
     <solid android:color="#77D6FF" />
-    <corners android:bottomRightRadius="12dp"
-        android:bottomLeftRadius="12dp"
-        android:topRightRadius="12dp"
-        android:topLeftRadius="12dp"/>
+    <corners android:bottomRightRadius="@dimen/square_button_radius"
+        android:bottomLeftRadius="@dimen/square_button_radius"
+        android:topRightRadius="@dimen/square_button_radius"
+        android:topLeftRadius="@dimen/square_button_radius"/>
 </shape>

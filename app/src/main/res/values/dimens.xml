@@ -12,4 +12,7 @@
     inner_frame_layout_padding (below variable) on round screens.
     -->
     <dimen name="inner_frame_layout_padding">5dp</dimen>
+    <dimen name="square_button">48dp</dimen>
+    <dimen name="square_button_radius">12dp</dimen>
+    <dimen name="small_icon_size">32dp</dimen>
 </resources>

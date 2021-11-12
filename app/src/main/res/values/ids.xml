@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="btn_rounded_blue" type="id">btn_rounded_blue</item>
-    <item name="restart_button" type="id">restart_button</item>
-    <item name="minutes_left" type="id">minutes_left</item>
-    <item name="time_colon" type="id">time_colon</item>
-    <item name="seconds_left" type="id">seconds_left</item>
-    <item name="display_time" type="id">display_time</item>
+    <item name="btn_play_pause" type="id" />
+    <item name="btn_restart" type="id" />
+    <item name="minutes_left" type="id" />
+    <item name="time_colon" type="id" />
+    <item name="seconds_left" type="id" />
+    <item name="display_time" type="id" />
 </resources>
