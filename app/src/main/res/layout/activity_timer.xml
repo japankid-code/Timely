@@ -30,28 +30,48 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent">
-
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:orientation="horizontal">
+                <ScrollView
+                    android:id="@+id/minutes_view"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp">
+                    <LinearLayout
+                        android:id="@+id/minutes_wrapper"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/minutes_left"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/minutes_left"
+                            android:textSize="55sp" />
+                    </LinearLayout>
+                </ScrollView>
                 <TextView
-                    android:id="@+id/minutes_left"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/minutes_left"
-                    android:textSize="60sp" />
-
-                <TextView
-                    android:id="@id/time_colon"
+                    android:id="@+id/time_colon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/colon"
                     android:textSize="60sp" />
-
-                <TextView
-                    android:id="@+id/seconds_left"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/seconds_left"
-                    android:textSize="60sp" />
+                <ScrollView
+                    android:id="@+id/seconds_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="75dp">
+                    <LinearLayout
+                        android:id="@+id/seconds_wrapper"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/seconds_left"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/seconds_left"
+                            android:textSize="55sp" />
+                    </LinearLayout>
+                </ScrollView>
             </LinearLayout>
 
             <LinearLayout

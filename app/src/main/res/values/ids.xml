@@ -2,8 +2,12 @@
 <resources>
     <item name="btn_play_pause" type="id" />
     <item name="btn_restart" type="id" />
+    <item name="minutes_view" type="id" />
+    <item name="minutes_wrapper" type="id" />
     <item name="minutes_left" type="id" />
     <item name="time_colon" type="id" />
+    <item name="seconds_view" type="id" />
+    <item name="seconds_wrapper" type="id" />
     <item name="seconds_left" type="id" />
     <item name="display_time" type="id" />
 </resources>
